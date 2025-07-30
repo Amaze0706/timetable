@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                text-align: center;
+            }
+            th, td{
+                border: 1px solid #000;
+                padding: 8px;
+            }
+            th {
+                background-color: #00bfff;
+                color: white;
+            }
+            .break {
+                writing-mode: vertical-rl; size: tick;
+                transform: rotate(180deg);
+                font-weight: bolder;
+            }
+            /*Subject colors */
+            .msdl{ color:rgb(49, 172, 49);}
+            .python { color:red;}
+            .cyber{ color:rgb(60, 68, 172);}
+            .ethical {color: orange;}
+            .ccna1 {color: rgb(177, 36, 36);}
+            .ccna2 {color: grey;}
+            .ccna3 {color: red;}
+            .hacking {color: yellowgreen }
+            .network {color: teal;}
+            .javascript {color: rgb(235, 11, 11);}
+            .datascience {color: rgb(57, 182, 182);}
+            .itess {color: purple;}
+        </style>
+    </head>
+    <body>
+
+        <h2>Class Timetable</h2>
+
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>8:00-10:00</th>
+                <th>10:00-12:00</th>
+                <th>12:00-2:00</th>
+                <th>2:00-4:00</th>
+                <th>4:00-6:00</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td><span class="msdl">MSDL</span>/<span class="python">Python</span>/<span class="cyber">Cyber Security</span></td>
+                <td><span class="ccna1">CCNA1</span>/<span class="hacking">Ethical Hacking</span>/</span class="javascript">JavaScript</span></td>
+                <td class="break" rowspan="5">BREAK</td>
+                <td><span class="datascience">Data Science</span></td>
+                <td>**</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td><span class="ethical">Ethical Hacking</span>/<span class="ccna2">CCNA2</span></td>td>
+                <td><span class="ccna3">CCNA3</span>/<span class="network">Network Security</span>/<span class="python">Pathon</span></td>
+                <td><span class="itess">IT-Essential</span>/<span class="javascript">JavaScript</span></td>
+                <td>**</td>
+            </tr>
+            <tr>
+                <td>Wednesdsy</td>
+                <td><span class="msdl">MSDL</span>/<span class="cyber">Cyber Security</span>/<span class="network">Networking Security</span></td>
+                <td><span class="ccna1">CCNA1</span>/<span class="ccna2">CCNA2</span>/<span class="ccna3">CCNA3</span></td>
+                <td><span class="itess">IT-Essentials</span>/<span class="datasci">Data Science</span></td>
+                <td>**</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td><span class="ccna2">CCNA2</span>/<span class="ethical">Ethicall Hacking</span></td>
+                <td><span class="ccna3">CCNA3</span></td>
+                <td><span class="itess">IT-Essential</span>/<span class="javascript">JavaScsript</span></td>
+                <td>**</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td><span class="msdl">MSDL</span>/<span class="python">Python</span>/<span class="cyber">Cyber Security</span></td>
+                <td><span class="ccna1">CCNA1</span>/<span class="datasci">Data science</span>/<span class="network">Network Security</span></td>
+                <td>**</td>
+                <td>**</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
